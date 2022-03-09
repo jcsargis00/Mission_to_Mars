@@ -8,8 +8,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def scrape_all():
     # Initiate headless driver for deployment
-    executable_path = {'executable_path': ChromeDriverManager().install()}
-    browser = Browser('chrome', **executable_path, headless=True)
+    executable_path = {'executable_path': "c://Windows//chromedriver"}
+    browser = Browser('chrome', **executable_path, headless=False)
 
     news_title, news_paragraph = mars_news(browser)
 
@@ -61,7 +61,7 @@ def featured_image(browser):
     browser.visit(url)
 
     # Find and click the full image button
-    full_image_elem = browser.find_by_tag('button')[1]
+    full_image_elem = browser.find_by_tag("button")[1]
     full_image_elem.click()
 
     # Parse the resulting html with soup
