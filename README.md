@@ -22,7 +22,7 @@ Code is in file Mission_to_Mars_Challenge.ipynb
 #
 ![Mars Mongo](https://github.com/jcsargis00/Mission_to_Mars/blob/main/images/marsmongo.PNG)
 #
-### Deliverable #2 - Update the Web App with Mars's Hemisphere Images and Titles
+### Deliverable 2 - Update the Web App with Mars's Hemisphere Images and Titles
 #
 Save Mission_to_Mars_Challenge.ipynb as a python file.  Create scrape all function. Use Flask in app.py to run 
 web app.  Show full resolution images and titles of the four hemisphere images on web page in addition
