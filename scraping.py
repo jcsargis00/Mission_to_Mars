@@ -85,7 +85,8 @@ def mars_facts():
 # Mars Hemispheres Web Scraper
 def hemisphere(browser):
     # 1. Use browser to visit the URL 
-    url = 'https://marshemispheres.com/'
+    #url = 'https://marshemispheres.com/'
+    url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     browser.visit(url)
     # Optional delay for loading the page
     browser.is_element_present_by_css('div.list_text', wait_time=1)
@@ -100,10 +101,12 @@ def hemisphere(browser):
     #create empty dictionary
         hemispheres = {}
         browser.find_by_css('a.product-item h3')[x].click()
+        #Find sample element
         element = browser.find_link_by_text('Sample').first
         img_url = element['href']
         title = browser.find_by_css("h2.title").text
         hemispheres["img_url"] = img_url
+        #Hemisphere title
         hemispheres["title"] = title
         hemisphere_image_urls.append(hemispheres)
         browser.back()
@@ -111,7 +114,7 @@ def hemisphere(browser):
 
 # Helper Function
 def scrape_hemisphere(html_text):
-    hemisphere_soup = BeautifulSoup(html_text, "html.parser")
+    hemisphere_soup = soup(html_text, "html.parser")
     try: 
         title_element = hemisphere_soup.find("h2", class_="title").get_text()
         sample_element = hemisphere_soup.find("a", text="Sample").get("href")
