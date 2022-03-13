@@ -9,7 +9,7 @@ Code is in file Mission_to_Mars_Challenge.ipynb
 * Full-resolution images were retrieved for each of Mars's hemispheres
 * A list was created to hold the image URL and title
 * Images and titles were retrieved using the Sample image tag
-* Data was stored in a dictionary
+* Data was stored in a dictionary 
 #
 ### Mars's Hemispheres Dictionary Listing
 #
