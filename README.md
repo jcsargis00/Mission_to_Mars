@@ -32,7 +32,7 @@ to the featured image, latest mars news, mars facts and Jumbotron Scrape button 
 ### Deliverable 3 - Add Bootstrap 3 Components
 #
 Mobile friendly bootstrap elements were added to the web page.
-* the page background was changed to light blue
+* the page background was changed to light blue  
 * the jumbotron had an image background added, a landscape of Mars from the NASA web site
 * each of the headers was colorized with a contextual background to make each section stand out
 * the page is clean, but stands out and displays properly on an iPhone 12 and a Samsung Galaxy s20 Ultra.
