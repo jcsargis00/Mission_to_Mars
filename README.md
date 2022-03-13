@@ -1,7 +1,7 @@
 # Mission_to_Mars
 ## Create a web app with four of the hemisphere images of Mars
 #
-Use Splinter and BeautifulSoup to scrape full-resolution images of Mars's hemispheres and titles, store in Mongo database, use a web application with Flask to display the data and use bootstrap to enhance the appearance of the web pages
+Use Splinter and BeautifulSoup to scrape full-resolution images of Mars's hemispheres and titles, store in Mongo database, use a web application with Flask to display the data and use bootstrap to enhance the appearance of the web pages.
 ### Deliverable 1 - Scrape Full-Resolution Mars Hemisphere Images and Titles
 # 
 Code is in file Mission_to_Mars_Challenge.ipynb
@@ -39,4 +39,4 @@ Mobile friendly bootstrap elements were added to the web page.
 #
 ![iPhone 12](https://github.com/jcsargis00/Mission_to_Mars/blob/main/images/iPhone.PNG)
 #
-![Galaxys2](https://github.com/jcsargis00/Mission_to_Mars/blob/main/images/galaxys20.PNG
+![Galaxys2](https://github.com/jcsargis00/Mission_to_Mars/blob/main/images/galaxys20.PNG)
